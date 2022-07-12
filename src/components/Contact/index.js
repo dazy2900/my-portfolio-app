@@ -22,6 +22,21 @@ const Contact = () => {
                  strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']} 
                  letterClass={letterClass} idx={15} />
                 </h1>
+                <div className='contact-form'>
+                 <form>
+                   <ul>
+                     <li className='half'>
+                         <input type='text' name='name' placeholder='Name' required />
+                     </li>
+                     <li className='half'>
+                         <input type='email' name='email' placeholder='Email' required />
+                     </li>
+                     <li className='half'>
+                         <input type='text' name='name' placeholder='Name' required />
+                     </li>
+                   </ul>
+                 </form>   
+                </div>
             </div>
         </div>
             <Loader type='pacman' />
