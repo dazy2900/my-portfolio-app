@@ -44,22 +44,34 @@ const About = () => {
 
                 <div className='skills'>
                     <h2>Skills</h2>
-                    <h3>  GRAPHICS DESIGN & UI/UX</h3>
-                    <span>Corel Draw,       Photoshop,	Illustrator,
-                        Adobe XD,	Articulate Storyline </span>    
-                    <h3> MOTION GRAPHICS </h3>
+                   
+                    <div className='left'>
+                        <h3>  GRAPHICS DESIGN & UI/UX</h3>
+                        <span>Corel Draw,       Photoshop,	Illustrator,
+                            Adobe XD,	Articulate Storyline </span>
+                    </div>   
 
-                    <span>Adobe After Effect,    	Adobe Media Encoder</span> 
-
-                    <h3>    FRONT END WEB DESIGN </h3>
-                    <span>  HTML,       CSS,	       SCSS, 	Bootstrap,
-                        JAVASCRIPT (JQuery, AJAX, React JS),
-                        WORDPRESS	</span>  	
-                    <h3>    BACK END WEB DEVELOPMENT</h3>
-                    <span>    JAVASCRIPT (Node JS, Express JS),
-                        PHP </span>
-                    <h3> DATABASE (MYSQLI, MONGO DB)</h3>
+                    <div className='right'>
+                        <h3> MOTION GRAPHICS </h3>
+                        <span>Adobe After Effect,    	Adobe Media Encoder</span> 
+                    </div>
                     
+                    <div className='left'>
+                        <h3>    FRONT END WEB DESIGN </h3>
+                        <span>  HTML,       CSS,	       SCSS, 	Bootstrap,
+                            JAVASCRIPT (JQuery, AJAX, React JS),
+                            WORDPRESS	</span>  
+                    </div>
+
+                    <div className='right'>
+                        <h3>    BACK END WEB DEVELOPMENT</h3>
+                        <span>    JAVASCRIPT (Node JS, Express JS),
+                            PHP </span>
+                    </div>
+
+                    <div className='left'>
+                        <h3> DATABASE (MYSQLI, MONGO DB)</h3>
+                    </div>
                    
 
                 </div>
