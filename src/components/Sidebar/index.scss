@@ -1,11 +1,12 @@
 .nav-bar{
     background: #181818;
-    width: 60px;
+    width: 4.7%;
     height: 100%;
     position: absolute;
     top: 0;
     z-index: 3;
-    min-height: 500px;
+    min-height: fit-content;
+    max-height: fit-content;
 
 
     .logo{
@@ -58,7 +59,7 @@
         }
         &:after{
             content:'';
-            font-size: 9px;
+            font-size: 8px;
             letter-spacing: 2px;
             position: absolute;
             bottom: 0px;
@@ -84,6 +85,7 @@
     a.contact-link{
         &:after {
             content: 'CONTACT'
+           // font-size 10px;
         }
     }
     a.active {

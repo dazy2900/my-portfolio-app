@@ -71,4 +71,131 @@
         float: right;
         border-radius: 4px;
     }
+
+   
+}
+.contact-icons{
+    font-size:Arial Rounded MT Bold;
+    position:relative;
+    margin-top: 10%;
+    
+    z-index: 4;
+    font-size: 20px;
+    font-weight: 500;
+    min-width: 35%;
+    color: #fff;
+    flex:50%;
+  
+    
+
+    .contact-div{
+        margin-bottom: 60px;
+        margin-left:50px;
+
+        &:first-child{
+            opacity: 0;
+            animation: 2s 3s fadeInRight forwards;
+            svg{
+                color: #ffd700;
+
+                &:hover{
+                    color:#fff;
+                }
+            }
+           
+        } 
+        &:nth-child(2){
+            opacity: 0;
+            animation: 3s 2.5s fadeInLeft forwards;
+            svg{
+                color: rgba(157, 165, 253, 0.648);
+
+                &:hover{
+                    color:#fff;
+                }
+            }
+        } 
+        &:nth-child(3){
+            opacity: 0;
+            animation: 3s 3s fadeInUp forwards;
+            svg{
+                color: skyblue;
+
+                &:hover{
+                    color:#fff;
+                }
+            }
+        }
+        .contact-span{
+            margin-left: 50px;
+        }
+        svg{
+            width: 30px;
+            height: 30px;
+        } 
+    }
+    .social-icons{
+        position: relative;
+        left: 60%;
+        align-items: left;
+        opacity: 0;
+        animation: 2s 4s bounceIn forwards;
+        justify-content: right;
+
+        .topic{
+            margin-bottom: 10px;
+            
+        }
+
+        .s-icon{
+            display: inline-block;
+            width: 50px;
+            border: px solid black;
+
+            svg{
+                width: 25px;
+                height: 25px;
+            }
+           
+        }
+        .instagram{
+            svg{
+                color: red;
+
+                &:hover{
+                    color:#fff;
+                }
+            }
+        } 
+        .facebook{
+            svg{
+                color: rgb(108, 108, 243);
+
+                &:hover{
+                    color:#fff;
+                }
+            }
+        } 
+        .whatsapp{
+            
+            svg{
+                color: greenyellow;
+
+                &:hover{
+                    color:#fff;
+                }
+            }
+        } 
+        .twitter{
+            svg{
+                color: rgba(36, 36, 255, 0.881);
+
+                &:hover{
+                    color:#fff;
+                }
+            }
+        }
+    }
+
+
 }

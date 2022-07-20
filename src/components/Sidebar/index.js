@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import dlogo from '../../image/logo.png'
 
 import {faEnvelope, faHome, faUser} from '@fortawesome/free-solid-svg-icons'
-import { faCss3, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faReact, faJsSquare, faPhp, faHtml5, faWordpress } from '@fortawesome/free-brands-svg-icons'
 const Sidebar = () => 
     <div className='nav-bar'>
         <Link className='logo' to='/'>
@@ -28,7 +28,7 @@ const Sidebar = () =>
                     rel='noreferrer'
                     href='#'
                 >
-                    <FontAwesomeIcon icon={faCss3} color='#4d4d4e' />
+                    <FontAwesomeIcon icon={faReact} color='#4d4d4e' />
                 </a>
             </li>
             <li>
@@ -37,7 +37,7 @@ const Sidebar = () =>
                     rel='noreferrer'
                     href='#'
                 >
-                    <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
+                    <FontAwesomeIcon icon={faJsSquare} color='#4d4d4e' />
                 </a>
             </li>
             <li>
@@ -46,7 +46,7 @@ const Sidebar = () =>
                     rel='noreferrer'
                     href='#'
                 >
-                    <FontAwesomeIcon icon={faInstagram} color='#4d4d4e' />
+                    <FontAwesomeIcon icon={faPhp} color='#4d4d4e' />
                 </a>
             </li>
             <li>
@@ -55,7 +55,7 @@ const Sidebar = () =>
                     rel='noreferrer'
                     href='#'
                 >
-                    <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
+                    <FontAwesomeIcon icon={faWordpress} color='#4d4d4e' />
                 </a>
             </li>
         </ul>

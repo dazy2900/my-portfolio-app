@@ -1,28 +1,30 @@
 .logo-container{
     z-index: 1;
-    width: 400px;
-    height: 600px;
-    position: absolute;
-    top: 50%;
-  //  transform: translateY(-50%); 
-    right: 15%;
-    bottom: 0;
-    left:auto;
-    margin: auto;
+    width: 50%;
+    height: 280px;
+    right: 0;
+    position: relative;
+    top:20%;
+    //transform: translateY(-50%); 
+    flex:50%;
+    //border: 1px solid cadetblue;
+    
+   
+    
+
+   
+    
     
 
     .solid-logo{
-        position: absolute;
-        top:auto;
-        right: auto;
-        bottom:auto;
-        left: 0;
-        margin: auto;
-        width:100%;
+        position: relative;
+        width:400px;
+        height: 100%;
         opacity: 0;
         animation: 3s 3s bounceIn forwards;
         //transform: rotateZ(15deg);
         z-index: 1;
+        //border: 1px solid lawngreen;
     }
 
 
