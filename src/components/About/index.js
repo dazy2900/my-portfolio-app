@@ -47,25 +47,25 @@ const About = () => {
                    
                     <div className='left'>
                         <h3>  GRAPHICS DESIGN & UI/UX</h3>
-                        <span>Corel Draw,       Photoshop,	Illustrator,
+                        <span className='skill-topic'>Corel Draw,       Photoshop,	Illustrator,
                             Adobe XD,	Articulate Storyline </span>
                     </div>   
 
                     <div className='right'>
                         <h3> MOTION GRAPHICS </h3>
-                        <span>Adobe After Effect,    	Adobe Media Encoder</span> 
+                        <span className='skill-topic'>Adobe After Effect,    	Adobe Media Encoder</span> 
                     </div>
-                    
+
                     <div className='left'>
                         <h3>    FRONT END WEB DESIGN </h3>
-                        <span>  HTML,       CSS,	       SCSS, 	Bootstrap,
+                        <span className='skill-topic'>  HTML,       CSS,	       SCSS, 	Bootstrap,
                             JAVASCRIPT (JQuery, AJAX, React JS),
                             WORDPRESS	</span>  
                     </div>
 
                     <div className='right'>
                         <h3>    BACK END WEB DEVELOPMENT</h3>
-                        <span>    JAVASCRIPT (Node JS, Express JS),
+                        <span className='skill-topic'>    JAVASCRIPT (Node JS, Express JS),
                             PHP </span>
                     </div>
 
