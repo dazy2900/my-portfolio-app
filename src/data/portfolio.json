@@ -1,0 +1,23 @@
+{
+    "portfolio" : [
+        {
+            "cover" : "/portfolio/novayatech-shot.jpg",
+            "title" : "Novayatech",
+            "description" : "HTML5, CSS3, Bootstrap, JavaScript, JQuery, Ajax, Mysql",
+            "url" : "https://novayatech.netlify.app"
+        },
+        {
+            "cover" : "/portfolio/sneaks-shot.jpg",
+            "title" : "Sneaks Emart",
+            "description" : "HTML5, CSS3, Bootstrap, JavaScript, JQuery, Ajax, Mysql",
+            "url" : "https://sneaks-emart.herokuapp.com"
+        },
+        {
+            "cover" : "/portfolio/dazyprime.png",
+            "title" : "DazyPrime",
+            "description" : "WordPress",
+            "url" : "https://dazyprime.com"
+        }
+        
+    ]
+}

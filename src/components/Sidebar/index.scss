@@ -7,8 +7,8 @@
     z-index: 3;
     min-height: fit-content;
     max-height: fit-content;
-
-
+  
+    
     .logo{
         display:block;
         padding: 8px 0;
@@ -81,7 +81,11 @@
             content: 'ABOUT'
         }
     }
-
+    a.portfolio-link{
+        &:after{
+            content: 'PORTFOLIO'
+        }
+    }
     a.contact-link{
         &:after {
             content: 'CONTACT'

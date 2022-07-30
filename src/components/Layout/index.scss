@@ -1,7 +1,13 @@
 @media (max-width: 800px) {
+    body{
+        overflow-y: hidden;
+        overflow-x: hidden;
+       
+    }
     .container {
         flex-wrap: wrap-reverse ;
-              
+
+     
         .logo-container{
         top: 10%;
         flex: 100%;
@@ -34,7 +40,51 @@
     .nav-bar{
         min-width: 40px;
     }
+    .portfolio-page{
+        .image-container{
+           flex-wrap: wrap-reverse;
+          
+            
+            .image-box{
+                flex: 100%;
+                min-width: calc(100% - 10px);
+            }
+        }
+        
+            .pdff-box{
+                max-width: 350px;
+                //min-height: 250px;
 
+                .content{
+                    padding-top: -5px;
+                    padding-bottom: 5px;
+                    height: 65px;
+                    //display: none;
+
+                }
+
+            }
+        
+        .youtube-container{
+          
+            max-height: 45%;
+            .youtube{
+               
+                min-width: calc(90% - 10px);
+                width: 45%;
+                max-height: 250px;               
+            }
+           
+            .youtube iframe{
+               
+               
+              
+                width: 100%;
+                height:100%;
+                
+            }
+        }
+    }    
     .about-page{
         flex-wrap: wrap-reverse;
 
@@ -133,6 +183,11 @@
     margin-left: -20px;
 }
 
+body{
+    overflow-x: hidden;
+   overflow-y: hidden;
+}
+
 .container{
     width: 95%;
     will-change: contents;
@@ -140,7 +195,6 @@
     min-height: 556px;
     position: absolute;
     display: flex;
-    
     opacity: 0;
     top: 5%;
     right: 0;
@@ -153,7 +207,70 @@
 }
 
 .about-page,
-.contact-page{
+.contact-page,
+.portfolio-page{
+    
+    h1{
+        font-size: 53px;
+        font-family: Cooper, pluto, museo, concord,goudy old style, garamond;
+        color:#ffd700;
+        font-weight: 400;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+        left: 10px;
+       
+        &::before {
+            content: '<h1>';
+            font-family: Embassy BT;
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -10px;
+            left: -10px;
+            opacity: 0.2;
+            line-height: 18px;
+        }
+        &::after{
+            content: '</h1>';
+            font-family: Embassy BT;
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 10px;
+            bottom: -20px;
+            margin-left: 20px;
+            left: -30px;
+            animation: fadeIn 1s 1.6s backwards; 
+            opacity: 0.2;
+            line-height: 10px;
+        }
+    }
+
+    p{
+        font-style: 15px;
+        color:rgb(177, 176, 176);
+        font-family: sans-serif;
+        font-weight: 300;
+        line-height: 15px;
+        min-width: fit-content;
+        animation: pulse 1s;
+        padding-right:  30px;
+       
+
+        &:nth-of-type(1){
+            animation-delay: 1.1s;
+        }
+
+        &:nth-of-type(2){
+            animation-delay: 1.3s;
+        }
+        
+        &:nth-of-type(3){
+            animation-delay: 1.5s;
+        }
+    }
+
     .text-zone{
         position: relative;
         left:5%;
@@ -167,66 +284,7 @@
        
         
 
-        h1{
-            font-size: 53px;
-            font-family: Cooper;
-            color:#ffd700;
-            font-weight: 400;
-            margin-top: 0;
-            position: relative;
-            margin-bottom: 40px;
-            left: 10px;
-
-            &::before {
-                content: '<h1>';
-                font-family: Embassy BT;
-                color: #ffd700;
-                font-size: 18px;
-                position: absolute;
-                margin-top: -10px;
-                left: -10px;
-                opacity: 0.2;
-                line-height: 18px;
-            }
-            &::after{
-                content: '</h1>';
-                font-family: Embassy BT;
-                color: #ffd700;
-                font-size: 18px;
-                position: absolute;
-                margin-top: 10px;
-                bottom: -20px;
-                margin-left: 20px;
-                left: -30px;
-                animation: fadeIn 1s 1.6s backwards; 
-                opacity: 0.2;
-                line-height: 10px;
-            }
-        }
-
-        p{
-            font-style: 15px;
-            color:rgb(177, 176, 176);
-            font-family: sans-serif;
-            font-weight: 300;
-            line-height: 15px;
-            min-width: fit-content;
-            animation: pulse 1s;
-            padding-right:  30px;
-           
-
-            &:nth-of-type(1){
-                animation-delay: 1.1s;
-            }
-
-            &:nth-of-type(2){
-                animation-delay: 1.3s;
-            }
-            
-            &:nth-of-type(3){
-                animation-delay: 1.5s;
-            }
-        }
+   
 
         h2{
             color: #fff;
