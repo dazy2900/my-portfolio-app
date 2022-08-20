@@ -19,8 +19,8 @@ const Home = () => {
     
     return(
         <>
-       <div className='container home-page'>
-            <div className='text-zone'>
+       <div className='container home-page border'>
+            <div className='text-zone border border'>
                 <h1>
                 <span className={letterClass}>H</span>
                  <span className={`${letterClass} _12`}>i</span>

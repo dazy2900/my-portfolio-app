@@ -8,12 +8,30 @@
         overflow-x: hidden;
        
     }
+    .page{
+        .tags{
+            display: none;
+        }
+    }
+    h1{
+       
+       
+        &::before {
+            content: '<h1>';
+            font-family: Embassy BT;
+            display: none;
+        }
+        &::after{
+            content: '</h1>';
+            font-family: Embassy BT;
+            display: none;
+        }
+    }
     .container {
         flex-wrap: wrap-reverse ;
 
-     
         .logo-container{
-        top: 10%;
+        top: 13%;
         flex: 100%;
 
         .solid-logo{
@@ -35,7 +53,7 @@
             //margin-top: 10%;
             
             h1{
-                font-size:45px;
+                font-size:40px;
             }
                         
         }
@@ -48,10 +66,15 @@
         .image-container{
            flex-wrap: wrap-reverse;
           
-            
+          
             .image-box{
                 flex: 100%;
-                min-width: calc(100% - 10px);
+                max-height: 220px;
+                min-width: calc(100% - 40px);
+                margin-left: auto;
+                margin-right: auto;
+
+                
             }
         }
         
@@ -73,7 +96,8 @@
           
             max-height: 45%;
             .youtube{
-               
+                margin-left: auto;
+                margin-right: auto;
                 min-width: calc(90% - 10px);
                 width: 45%;
                 max-height: 250px;               
@@ -81,7 +105,8 @@
            
             .youtube iframe{
                
-               
+                margin-left: auto;
+                margin-right: auto;
               
                 width: 100%;
                 height:100%;
@@ -99,6 +124,7 @@
 
             h3{
                 font-size: 8px;
+                 color: #b8b7b7;
             }
             p{
                 padding-right:  10px;
@@ -106,17 +132,17 @@
             .skills{
               .skill-topic{
                 
-                color: rgb(108, 108, 108);
+                color: #b8b7b7;
                 font-size: 8px;
                
-            }
+                }
             }
           
         }
 
         .stage-cube-cont{
             flex:100%;
-            top: 4%;
+            top: 2%;
             padding-bottom: 70%;
                 
         }
@@ -125,6 +151,14 @@
     .contact-page{
        flex-wrap: wrap;
 
+       .contact-form{
+        width: 95%;
+        margin-top: 10%;
+       
+        padding-left: 3%;
+        margin-left: auto;
+        margin-right: auto;
+       }
        .text-zone{
         top:0%;
         flex: 100%;

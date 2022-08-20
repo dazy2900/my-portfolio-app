@@ -3,7 +3,7 @@ import './index.scss'
 
 const Logo = ()=>{
      return (
-        <div className='logo-container'>
+        <div className='logo-container mb-5'>
             <img src={codelogo} className='solid-logo' />
         </div>
      )
